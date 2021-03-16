@@ -1,1 +1,9 @@
-
+.top-nav{
+    background-color: #272a31;
+    text-decoration-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    word-spacing: -2px;
+  }
+  
