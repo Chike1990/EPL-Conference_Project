@@ -1,24 +1,37 @@
 .top-nav{
     background-color: #272a31;
-    text-decoration-color: white;
+    color: white;
     display: flex;
     flex-direction: row-reverse;
-    justify-content:space-between;
-    color: white;
-    word-spacing: -2px;
+    text-align: justify;
+    margin-right: 10px 5px;
+  } */
+
+.orange{
+    color: #EC5242;
   }
 
-  .main-Program{
+h1{
+font-size: 50px;
+font-family: coco 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.paragraph1{
+  border: 20, 20, 20, 20
+}
+  
+.main-Program{
     background-color: #272a31;
     text-decoration-color: white;
   }
 
-  .card-img{
+.card-img{
     width: 0.2%;
     height: auto;
   }
 
-  .partners{
+.partners{
     background-color: #272a31;
   }
 
