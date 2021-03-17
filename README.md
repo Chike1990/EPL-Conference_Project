@@ -1,12 +1,7 @@
 # Eastern Players Concert Ticket Website
+Eastern Players Concert Ticket Website is my HTML & CSS 2.0 Capstone Project at Microverse. This project is a complete design on the Eastern Players Concert Tickets (Fictional). It follows a design prototype from Cindy Shin CC Global Summit 2015.
 
-This project is my HTML & CSS 2.0 Capstone Project in Microverse.
-
-The project is a complete design on the Eastern Players Concert Tickets (Fictional). It follows a design prototype from Cindy Shin CC Global Summit 2015.
-
-Complete design of the index, about and ticket page designed using Grid, Flexbox, Bootstrap, alongside with other CSS concepts.
-
-In this project, HTML, CSS styling and bootstrap 4 was used.
+Complete design of the index, about, and ticket pages were designed using Grid, Flexbox, Bootstrap, alongside other CSS concepts covered in the HTML/CSS 2.0 module. Thus, I have used HTML 5 semantic tags, CSS styling, and bootstrap in this project.
 
 Due to some unexpected health challenges, I could not strictly follow through the challenge breakdown. Hence, I had to skip some steps.
 

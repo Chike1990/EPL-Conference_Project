@@ -3,7 +3,7 @@
   color: orangered;
 }
 
-.first-p{
+.first-p {
   color: black;
 }
 
@@ -29,36 +29,28 @@
 
 .section-text {
   color: #6e6e6e;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
 .orange {
-  color: #EC5242;
-}
-
-.paragraph1 {
-  border: 20, 20, 20, 20
+  color: #ec5242;
 }
 
 .main-Program {
   background-color: #272a31;
   text-decoration-color: white;
-}
-
-.main-Program {
   color: white;
-
 }
 
 .portfolio {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .main-title h3::after {
   content: "";
   width: 50px;
   height: 5px;
-  color: #EC5242;
+  color: #ec5242;
   display: block;
   background-color: orange;
   margin-left: calc(50% - 50px);
@@ -67,7 +59,7 @@
 
 .main-Program {
   background-color: #272a31;
-  color: white;
+  
 }
 
 .program {
@@ -87,17 +79,15 @@
   height: 100%;
   position: absolute;
   background-color: rgba(71, 69, 69, 0.1);
-  /* z-index: 100; */
 }
 
 .card-img {
   width: 80px;
   height: 80px;
-
 }
 
 .card-title {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .artist-item .cols {
