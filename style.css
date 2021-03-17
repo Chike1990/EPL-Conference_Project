@@ -1,109 +1,119 @@
-/* .hello{
+.hello {
   font-size: 40px;
   color: orangered;
-  }
-  .sharing{
+}
+
+.first-p{
+  color: black;
+}
+
+.sharing {
   font-size: 70px;
   color: orangered;
-  }
-  .landing-section{
-      padding-top: 133px;
-      background-image: url(behanceGirls.jpeg);
-      background-position: center center !important;
-      background-size: cover !important;
-      background-repeat: no-repeat;
-      position: relative;
-      width: 100%;
-  }
-  
-  .section-text{
-      color: #6e6e6e;
-      border: 1px solid #ffffff;
-  }
-    
-.orange{
-    color: #EC5242;
-  }
+}
 
-  .paragraph1{
+.top-nav {
+  background-color: #6e6e6e;
+  color: white;
+}
+
+.landing-section {
+  padding-top: 133px;
+  background-image: url(behanceGirls.jpeg);
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+
+.section-text {
+  color: #6e6e6e;
+  border: 1px solid #ffffff;
+}
+
+.orange {
+  color: #EC5242;
+}
+
+.paragraph1 {
   border: 20, 20, 20, 20
 }
-  
-.main-Program{
-    background-color: #272a31;
-    text-decoration-color: white;
-  }
-  .main-Program{
-    color: white;
-  
-  }
-  .card-title{
-    color: #EC5242;
-  }
 
-  .partner{
-    background-color: #272a31;
-    color: white;
-  }
+.main-Program {
+  background-color: #272a31;
+  text-decoration-color: white;
+}
 
- */
+.main-Program {
+  color: white;
 
- .main-title h3::after {
+}
+
+.portfolio {
+  color: #EC5242;
+}
+
+.main-title h3::after {
   content: "";
   width: 50px;
   height: 5px;
-  color: orange;
+  color: #EC5242;
   display: block;
-  background-color:orange;
+  background-color: orange;
   margin-left: calc(50% - 50px);
   margin-top: 10px;
- }
+}
 
- .main-Program {
+.main-Program {
   background-color: #272a31;
   color: white;
- }
+}
 
- .program {
+.program {
   background-color: #272a31;
-   position: relative;
- }
+  position: relative;
+}
 
- .program:not(:last-child) {
-   margin-right: 20px;
- }
+.program:not(:last-child) {
+  margin-right: 20px;
+}
 
- .program::after {
-   content: "";
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   background-color: rgba(71, 69, 69, 0.1);
-   /* z-index: 100; */
- }
+.program::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(71, 69, 69, 0.1);
+  /* z-index: 100; */
+}
 
- .card-img {
-   width: 80px;
-   height: 80px;
-   
- }
+.card-img {
+  width: 80px;
+  height: 80px;
 
- .artist-item .cols {
-   width: 80%;
-   display: flex;
- }
+}
 
- .partner {
+.card-title {
+  color: #EC5242;
+}
+
+.artist-item .cols {
+  width: 80%;
+  display: flex;
+}
+
+.partner {
   background-color: #272a31;
   color: white;
- }
+}
 
- .brand-icons {
+.brand-icons {
   padding: 0 200px 0 200px;
- }
+}
 
- .brand-icons img {
-   width: 30%;
- }
+.brand-icons img {
+  width: 30%;
+}
