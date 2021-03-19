@@ -1,8 +1,8 @@
-/* body {
+body {
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
   color: #272a31;
-} */
+}
 
 .hello {
   font-size: 41px;
@@ -16,11 +16,26 @@
 .sharing {
   font-size: 70px;
   color: orangered;
+  font-family: url(Coco_lato_fonts/cocogoose);
 }
 
 .top-nav {
   background-color: #6e6e6e;
   color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding-right: 30px 30px 30px 30px;
+}
+
+.btn-outline {
+  margin-left: 700px;
+  border: 4px solid #ec5242;
+  color: #ec5242;
+}
+
+.btn-outline:hover {
+  background-color: #ec5242;
+  color: #fff;
 }
 
 .landing-section {
@@ -188,6 +203,13 @@
 }
 
 @media (min-width: 768px) {
+  .top-nav {
+    background-color: #6e6e6e;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 30px 30px 30px 30px;
+  }
   .program-container {
     width: 90%;
     grid-template-columns: repeat(5, 1fr);
