@@ -94,14 +94,14 @@
   background-color: #272a31;
   color: white;
 }
-/* 
+
 .partner-icons {
   padding: 0 200px 0 200px;
 }
 
 .partner-icons img {
   width: 30%;
-} */
+}
 
 /* footer section */
 .footer {
@@ -140,16 +140,6 @@
 }
 
 /* Media querry */
-
-@media (max-width: 380px) {
-  .event-wraps {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    width: 90%;
-  }
-}
-
 @media (min-width: 768px) {
   .program-container {
     width: 90%;
@@ -171,31 +161,13 @@
     text-decoration: underline;
   }
 
-  .artist-container {
-    width: 90%;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+  .partner-icons {
+    padding: 5px 200px 5px 200px;
   }
-
-  .brand-icons {
-    width: 90%;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+  
+  .partner-icons img {
+    width: 15%;
   }
-
-  .col {
-    width: 100%;
-    margin: auto;
-  }
-
-  /* .event-wraps {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  .event-gallery-1 img {
-    width: 100%;
-  } */
 
   .footer {
     background-color: #d3d3d3;
