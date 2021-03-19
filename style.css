@@ -16,7 +16,7 @@ body {
 .sharing {
   font-size: 70px;
   color: orangered;
-  font-family: url(Coco_lato_fonts/cocogoose);
+
 }
 
 .top-nav {
@@ -24,7 +24,7 @@ body {
   color: white;
   text-decoration: none;
   font-size: 10px;
-  padding-right: 30px 30px 30px 30px;
+  padding-right: 10px;
 }
 
 .btn-outline {
@@ -73,7 +73,7 @@ body {
   height: 5px;
   color: #ec5242;
   display: block;
-  background-color:#ec5242;
+  background-color: #ec5242;
   margin-left: calc(50% - 50px);
   margin-top: 10px;
 }
@@ -121,11 +121,11 @@ body {
   display: flex;
 }
 
-.mt-1{
+.mt-1 {
   width: 90%;
 }
 
-.featured-artistt{
+.featured-artistt {
   background-color: #fff;
   background-size: cover;
   height: auto;
@@ -210,6 +210,7 @@ body {
     font-size: 10px;
     padding-right: 30px 30px 30px 30px;
   }
+
   .program-container {
     width: 90%;
     grid-template-columns: repeat(5, 1fr);
@@ -236,21 +237,21 @@ body {
     gap: 5px;
   }
 
-.artist-container .card-img {
-  height: 120px;
-  width: 120px;
-  float: left;
-}
+  .artist-container .card-img {
+    height: 120px;
+    width: 120px;
+    float: left;
+  }
 
-.artist-container .portfolio .card-p{
-  font-size: small;
-  color: #ec5242;
-}
- 
+  .artist-container .portfolio .card-p {
+    font-size: small;
+    color: #ec5242;
+  }
+
   .partner-icons {
     padding: 5px 200px 5px 200px;
   }
-  
+
   .partner-icons img {
     width: 15%;
   }
@@ -261,6 +262,6 @@ body {
   }
 
   .footer-copyright {
-    color:  #272a31;
+    color: #272a31;
   }
 }
