@@ -52,7 +52,7 @@
   height: 5px;
   color: #ec5242;
   display: block;
-  background-color: orange;
+  background-color:#ec5242;
   margin-left: calc(50% - 50px);
   margin-top: 10px;
 }
@@ -76,9 +76,11 @@
   background-color: rgba(71, 69, 69, 0.1);
 }
 
+/* Featured Artist */
 .card-img {
   width: 80px;
   height: 80px;
+  margin-right: 20px;
 }
 
 .card-title {
@@ -88,8 +90,41 @@
 .artist-item .cols {
   width: 80%;
   display: flex;
+
 }
 
+/* ----------------------------------------------------------------- 
+.featured-artist {
+  background-color: #fff;
+  background-size: cover;
+  height: auto;
+}
+
+.artist-container {
+  width: 100%;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.artist-container .card-img {
+  height: 120px;
+  width: 120px;
+  float: left;
+}
+
+.artist-container .card-title1 .card-title2 .card-title3 .card-title4 .card-title5 .card-title6 {
+  color: #272a31;
+}
+
+.artist-container .portfolio .card-p{
+  font-size: small;
+  color: #ec5242;
+}
+----------------------------------------------------------------- */
+
+/* Partner Section */
 .partner {
   background-color: #272a31;
   color: white;
