@@ -16,7 +16,6 @@ body {
 .sharing {
   font-size: 70px;
   color: orangered;
-
 }
 
 .top-nav {
@@ -97,7 +96,7 @@ body {
   background-color: rgba(71, 69, 69, 0.1);
 }
 
-/* Featured Artist */
+/* Featured Artists */
 .artist-container {
   width: 100%;
   margin-bottom: 56px;
@@ -137,14 +136,6 @@ body {
   margin: 0 auto;
 }
 
-.artist-container {
-  width: 100%;
-  margin-bottom: 56px;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-}
-
 .artist-container .card-img {
   height: 120px;
   width: 120px;
@@ -173,7 +164,6 @@ body {
   width: 30%;
 }
 
-
 .footer {
   padding-top: 1rem;
   display: flex;
@@ -185,9 +175,6 @@ body {
 .footer-logo {
   margin-right: 32px;
   margin-top: 2%;
-}
-
-.footer-logo {
   height: 80px;
 }
 
@@ -208,7 +195,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 10px;
-    padding-right: 30px 30px 30px 30px;
+    padding-right: 10px;
   }
 
   .program-container {
