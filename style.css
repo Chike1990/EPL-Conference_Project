@@ -1,3 +1,259 @@
-*{
-    nav-down: auto;
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  color: #272a31;
+}
+
+.hello {
+  font-size: 30px;
+  color: orangered;
+  margin-bottom: 15px;
+}
+
+.first-p {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.sharing {
+  font-size: 50px;
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+.top-nav {
+  background-color: #6e6e6e;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.btn-outline {
+  margin-left: 400px;
+  border: 4px solid #ec5242;
+  color: #ec5242;
+}
+
+.btn-outline:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
+.landing-section {
+  padding-top: 133px;
+  background-image: url(behanceGirls.jpeg), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  background-blend-mode: color-burn;
+  background-position: center;
+  margin: 6px;
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.section-text {
+  color: #6e6e6e;
+  border: 1px solid #fff;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.main-Program {
+  background-color: #272a31;
+  text-decoration-color: white;
+  color: white;
+}
+
+.portfolio {
+  color: #ec5242;
+}
+
+.main-title h3::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  color: #ec5242;
+  display: block;
+  background-color: #ec5242;
+  margin-left: calc(50% - 50px);
+  margin-top: 10px;
+}
+
+.program {
+  background-color: #272a31;
+  position: relative;
+}
+
+.program:not(:last-child) {
+  margin-right: 20px;
+}
+
+.program::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(71, 69, 69, 0.1);
+}
+
+/* Featured Artists */
+.artist-container {
+  width: 100%;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.card-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.artist-item .cols {
+  width: 80%;
+  display: flex;
+}
+
+.mt-1 {
+  width: 90%;
+}
+
+.featured-artistt {
+  background-color: #fff;
+  background-size: cover;
+  height: auto;
+}
+
+.artist hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.artist-container .card-img {
+  height: 120px;
+  width: 120px;
+  float: left;
+}
+
+.artist-container .card-title {
+  color: #272a31;
+}
+
+.artist-container .portfolio {
+  font-size: small;
+  color: #ec5242;
+}
+
+.partner {
+  background-color: #272a31;
+  color: white;
+}
+
+.partner-icons {
+  padding: 0 200px 0 200px;
+}
+
+.partner-icons img {
+  width: 30%;
+}
+
+.footer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-logo {
+  margin-right: 32px;
+  height: 80px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  align-self: center;
+  font-weight: 800;
+  color: #272a31;
+}
+
+.footer-copyright:hover {
+  color: #031f37;
+}
+
+@media (min-width: 768px) {
+  .top-nav {
+    background-color: #6e6e6e;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 10px;
+  }
+
+  .program-container {
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .section-button {
+    display: none;
+  }
+
+  .see-more {
+    visibility: visible;
+  }
+
+  .see-more a {
+    color: #d3d3d3;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .artist-container {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .artist-container .card-img {
+    height: 120px;
+    width: 120px;
+    float: left;
+  }
+
+  .artist-container .portfolio .card-p {
+    font-size: small;
+    color: #ec5242;
+  }
+
+  .partner-icons {
+    padding: 5px 200px 5px 200px;
+  }
+
+  .partner-icons img {
+    width: 15%;
+  }
+
+  .footer {
+    background-color: #d3d3d3;
+    color: #272a31;
+  }
+
+  .footer-copyright {
+    color: #272a31;
+  }
 }
